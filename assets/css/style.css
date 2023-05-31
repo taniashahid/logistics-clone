@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krub', sans-serif;
+}
+
+:root {
+    --primary1:#ffbe34;
+    --primary2:#091242;
+    --secondary1:#f4f4f4;
+    --headingFont:#1c1f35;
+    --pgFont:#666c89;
+}
+
+.secondary-navbarr{
+    background-color: var(--primary2);
+    padding: 28px 0;
+}
+
+
+.list-item{
+    list-style-type: none;
+    
+}
+
+.list-item li a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 14px;
+    font-size: 14px;
+    
+}
+
+.data-items{
+    margin-left: 14px;
+}
+
+.navbar{
+    background-color:rgba(9, 18, 66, 0.28);
+    position: absolute;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 16px;
+    padding: 0 2rem;
+    border-right: 1px solid #f4f4f456;
+}
+
+.social-links {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-right: 1rem;
+}
+
+.social-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 .7rem;
+    font-size: 18px;
+}
+
+.navbar .request-btn {
+    color: black;
+    background-color: #fff;
+    padding: 27px 47px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar .request-btn:hover{
+    background-color: var(--primary1);
+}
+
+
+
+
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .data-items{
+        display: none;
+    }
+    
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+}
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
