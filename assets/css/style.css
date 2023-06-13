@@ -38,17 +38,30 @@
 }
 
 .navbar{
-    background-color:rgba(9, 18, 66, 0.28);
+    background-color:rgba(9, 18, 66, 0.25);
     position: absolute;
     width: 100%;
     padding: 0;
 }
 
+.navbar.sticky {
+    position: fixed;
+    top: 0;
+    background-color:var(--primary2);
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(9,18,66,0.25);
+}
+
+
 .navbar-nav .nav-item .nav-link{
     color: white;
     font-size: 16px;
-    padding: 0 2rem;
+    padding: 0 22px;
     border-right: 1px solid #f4f4f456;
+}
+
+.nav-item .nav-link:hover{
+    text-decoration: underline;
 }
 
 .social-links {
@@ -76,6 +89,224 @@
     background-color: var(--primary1);
 }
 
+.hero-img {
+    position: relative;
+    background-image: linear-gradient(105deg, #032D5F 20%, transparent 50%), url(../imgs/hero-img.png);
+    height: 770px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+ .hero-content{
+    position: absolute;
+    top: 50%;
+    
+}
+
+.hero-content span{
+    border-left: 5px solid var(--primary1);
+    width: fit-content;
+    padding: 3px 8px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.181);
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.hero-content h2{
+    margin-top: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.hero-content p{
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.hero-content a{
+    color: #23212a;
+    background-color: #fff;
+    display: inline-block;
+    padding: 18px 47px;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content a:hover{
+    background-color: var(--primary1);
+    
+}
+
+.what span{
+    background: rgba(0, 0, 0, 0.181);
+    padding: 8px;
+    border-left: 4px solid var(--primary1);
+    
+}
+
+.what h2{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.transport figure{
+    padding-right: 20px;
+    margin-right: 8px;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.transport .transport-cont{
+    border-left: 2px solid darkgrey;
+    padding-left: 22px;
+}
+
+.transport-cont a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+.transport-cont p{
+    color: #666c89;
+    font-size: 15px;
+}
+
+.transport figure img{
+    height: 45px;
+}
+
+
+.mid{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.mid-img{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background:  url(../imgs/third.png) ;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    padding-top: 280px;
+}
+
+.mid .mid-img .middle{
+    background-color: #fff;
+}
+
+.mid .mid-img .middle .row .col-md-6 span{
+    background: rgba(0, 0, 0, 0.181);
+    padding: 6px;
+    border-left: 4px solid var(--primary1);
+    
+}
+
+.mid .mid-img .middle .row .col-md-6 h4{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.mid .mid-img .middle .row .col-md-6 p{
+    color: #666c89;
+    font-size: 15px;
+
+}
+
+.mid .mid-img .middle .row .col-md-6 .why-inner h6{
+      font-weight: 500;
+      font-size: 18px;
+}
+
+.mid .mid-img .middle  .row .col-md-6 ul {
+    padding: 4px 0;
+    border: 1px solid darkgrey;
+
+    margin-top: 8px;
+    padding: 28px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.mid .mid-img .middle  .row .col-md-6 ul li h1{
+    font-size: 35px;
+   
+}
+
+.transport{
+    font-size: 24px;
+    text-align: center;
+     font-weight: 900;
+}
+
+.cards-wrap{
+    background-color: var(--primary1);
+    width: 100%;
+    height: 300px;
+    margin-top: 190px;
+    
+}
+
+
+.transport-cards{
+    position: relative;
+    bottom: 140px;
+    
+}
+
+.card-title{
+    position: absolute;
+    bottom: 7px;
+    left: 14px;
+}
+
+.transport-cards a figure img{
+    width: 200px;
+
+
+}
+
+.card-title h4{
+    color: #f4f4f4;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-title p{
+    color: var(--primary1);
+    font-size: 15px;
+}
+
+.bottom-btn a{
+   position: relative;
+   bottom: 45px;
+   left: 49%;
+   text-decoration: none;
+   color: #fff;
+   background-color: var(--primary2);
+   padding: 18px 22px;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+
+
+
+
 
 
 
@@ -91,6 +322,10 @@
     .data-items{
         display: none;
     }
+    .transport-cont{
+        display: none;
+    }
+
     
  }
 
