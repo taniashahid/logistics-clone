@@ -98,6 +98,8 @@
     background-repeat: no-repeat;
 }
 
+
+
  .hero-content{
     position: absolute;
     top: 50%;
@@ -492,7 +494,7 @@
 }
 
 .text p{
-    font-size: 9px;
+    font-size: 12px;
 }
 
 
@@ -523,9 +525,12 @@
     }
 
     .hero-img{
-        height: 550px;
+        height: 540px;
     }
 
+    
+
+   
     .hero-content span{
         font-size: 12px;
     }
