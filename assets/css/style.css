@@ -13,6 +13,10 @@
     --pgFont:#666c89;
 }
 
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
 .secondary-navbarr{
     background-color: var(--primary2);
     padding: 28px 0;
@@ -31,6 +35,10 @@
     margin-left: 14px;
     font-size: 14px;
     
+}
+
+.list-item li a:hover{
+    color: var(--primary1);
 }
 
 .data-items{
