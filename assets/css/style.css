@@ -21,7 +21,7 @@ html{
 
 .secondary-navbarr{
     background-color: var(--primary2);
-    padding: 28px 0;
+    padding: 14px 0;
 }
 
 
@@ -34,7 +34,7 @@ html{
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    margin-left: 14px;
+     margin-left: 14px; 
     font-size: 14px;
     
 }
@@ -46,6 +46,7 @@ html{
 .data-items{
     margin-left: 14px;
 }
+
 
 .navbar{
     background-color:rgba(9, 18, 66, 0.25);
@@ -77,7 +78,7 @@ html{
 .social-links {
     list-style-type: none;
     margin-bottom: 0;
-    padding-right: 1rem;
+    padding-right: 3rem;
 }
 
 .social-links li a {
@@ -108,7 +109,15 @@ html{
     background-repeat: no-repeat;
 }
 
+.hero-about-img{
+    position: relative;
+    background-image: linear-gradient(105deg, #032D5F 20%, transparent 50%), url(../imgs/about/about-us.png);
+    height: 400px;
+    width: 100%;
 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
  .hero-content{
     position: absolute;
@@ -183,7 +192,7 @@ html{
     margin-right: 8px;
     border-right: 2px solid var(--pgFont);
     display: flex;
-    align-items: flex-start;
+     align-items: flex-start; 
     justify-content: center;
 }
 
@@ -359,10 +368,29 @@ html{
     list-style: none;
 }
 
-.mid .mid-img .middle  .row .col-md-6 ul li h1{
-    font-size: 34px;
-   
+.mid .mid-img .middle .row .right>figure{
+    width: 100%;
+    position: relative;
 }
+
+.mid .mid-img .middle .row .right>figure>img{
+    width: 100%;
+}
+
+.mid .mid-img .middle .row .col-md-6 .right figure>figure>img{
+    width: 100%;
+}
+
+.mid .mid-img .middle .row .right figure>figure{
+    
+    background-color: white;
+    padding: 5%;
+    position: absolute;
+    left: -18%;
+    bottom: -19%;
+    width: 70%;
+}
+
 
 .transport{
     font-size: 24px;
@@ -426,6 +454,7 @@ html{
 }
 
 .top1 h6{
+    margin-top: 8px;
     background: rgba(0, 0, 0, 0.181);
     padding: 8px;
     border-left: 4px solid var(--primary1);
@@ -443,7 +472,7 @@ html{
     height: 40px;
     position: relative;
     
-    left: 185px;
+    left: 190px;
     bottom: 37px;
     background-color: var(--primary1);
 }
@@ -543,13 +572,13 @@ html{
     padding: 0;
 }
 
-.green-studio ul li>img{
+ .green-studio ul li>img{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 65px;
-}
+} 
 
 .green-studio ul li:nth-child(2)>img{
     transform: translate(-50%, -50%);
@@ -564,7 +593,7 @@ html{
 
 .green-studio ul li>figure {
     width: 100%;
-    width: 100% ;
+    
 height: 100%;
 opacity: 0;
 transition: all .4s ease;
@@ -579,8 +608,7 @@ object-position: center;
 }    
 
 
-
- .c-btn{
+  .c-btn{
   width: 200px;
     height: 70px; 
     background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
@@ -622,7 +650,7 @@ object-position: center;
     bottom: -40px;
 
 }  
-
+ 
 
 
 
@@ -781,12 +809,155 @@ object-position: center;
 }
 
 
+.our-company>.container>.row>.col-md-6:first-child{
+    padding-right: 20px;
+     margin: 24px 0; 
+}
+
+.our-company>.container>.row>.col-md-6>figure{
+    width: 100%;
+    position: relative;
+}
+
+.our-company>.container>.row>.col-md-6>figure>img{
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.our-company>.container>.row>.col-md-6>figure>img:nth-child(2){
+    position: absolute;
+    width: 35%;
+    bottom: -14%;
+    right: 0;
+    background-color: #fff;
+    padding: 20px;
+    padding-right: 0%;
+}
+
+.our-company h1{
+    margin-top: 14px;
+}
+
+.our-company p{
+    color: var(--pgFont);
+    margin-bottom: 16px;
+}
+
+.our-company>.container>.row>.col-md-6>ul>li{
+    
+    width: fit-content;
+    height: fit-content;
+     display: flex;
+    flex-wrap: wrap; 
+    list-style: none;
+    
 
 
+}
 
+.our-company>.container>.row>.col-md-6>ul>li>a{
+      text-decoration: none;
+      color: black;
+    margin: 12px;
+    padding: 12px 20px;
+    
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    background-color: lightgrey; 
 
+}
 
+.our-company>.container>.row>.col-md-6>ul>li>a:hover{
+    background-color: var(--primary1);
+    color: #fff;
+}
 
+.b-c-btn{
+    width: 200px;
+    height: 70px;
+    background-color: var(--primary2);
+    overflow: hidden;
+    position: relative;
+    display: block;
+    bottom: 0 !important;
+}
+
+.b-c-btn::before{
+    z-index: 1 !important;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #1f2A69;
+    display: block;
+    content: '';
+    border-radius: 50%;
+    right: -65px;
+    bottom: -65px;
+    transition: all .4s ease-in-out;
+}
+
+.b-c-btn>h6{
+    z-index: 11 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.b-c-btn:hover::before{
+    width: 340px;
+    height: 200px;
+    right:  -35px;
+    bottom: -40px;
+}
+
+/* .b-c-btn{
+    width: 200px;
+    height: 60px;
+    background: var(--primary2);
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border: 0 !important;
+    
+   
+}
+
+.b-c-btn::before {
+    z-index: 1 !important;
+    position: absolute;
+    width: 100px;
+    
+    height: 100px;
+    border-radius: 50%;
+    background-color: #1F2A69;
+    display: block;
+    content: '';
+    right: -65px;
+    bottom: -65px;
+    transition: all .4s ease-in-out
+    
+}
+
+.b-c-btn>h6 {
+    color: white;
+    z-index: 11 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.b-c-btn:hover::before {
+    width: 340px;
+    height: 200px;
+    right: -35px;
+    bottom: -40px;
+
+}  */
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     
@@ -808,11 +979,17 @@ object-position: center;
     }
 
     .hero-img{
-        height: 540px;
+        height: 640px;
     }
 
-    
+    .top1{
+        margin-top: 68px;
+    }
 
+
+    .team-connections{
+        left: 140px;
+    }
    
     .hero-content span{
         font-size: 12px;
@@ -832,9 +1009,7 @@ object-position: center;
 
 
 
-    .col-md-6  figure img{
-         display: none;
-    }
+    
 .transporting{
     display: none;
 }
@@ -846,6 +1021,8 @@ object-position: center;
    .testimonial-card-wrapper{
     display: block;
    }
+
+   
 
    .footer-banner{
     display: none;
